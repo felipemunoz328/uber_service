@@ -20,7 +20,7 @@ docker build -t uber_service .
 
 # starting up a container
 este servicio debe quedar alojado en el puerto
-http://172.17.0.3:8081
+:8082
 
 # starting up a container
 docker run --name uber --link user:user -p 8082:8082 uber_service
